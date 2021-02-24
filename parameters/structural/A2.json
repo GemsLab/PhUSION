@@ -1,0 +1,15 @@
+{
+    "input": "./data/origin/usa-airports.edgelist",
+    "prox_option": "A2",
+    "prox_params": {
+        "transform": 0,
+        "threshold": 0,
+        "power": 3
+    },
+    "prox_file": "A2",
+    "embed_option": "struct",
+    "embed_params": {
+        "time_pnts": [0,100,25]
+    },
+    "output": "data/embeded/structural/A2"
+}

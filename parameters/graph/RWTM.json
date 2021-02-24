@@ -1,0 +1,18 @@
+{
+    "dataset": "proteins",
+    "prox_option": "RWTM",
+    "prox_params": {
+        "transform": 0,
+        "threshold": 0,
+        "power": 3
+    },
+    "randomseed": 0,
+    "numfolds": 10,
+    "svmc": 0.1,
+    "prox_file": "RWTM",
+    "embed_option": "struct",
+    "embed_params": {
+        "time_pnts": [0,100,25]
+    },
+    "output": "data/embeded/graph/RWTM"
+}

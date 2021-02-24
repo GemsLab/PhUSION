@@ -1,0 +1,16 @@
+{
+    "input": "./data/origin/usa-airports.edgelist",
+    "prox_option": "PPMI",
+    "prox_params": {
+        "transform": 0,
+        "threshold": 0,
+        "window": [10],
+        "negative": 1.0
+    },
+    "prox_file": "PPMI",
+    "embed_option": "struct",
+    "embed_params": {
+        "time_pnts": [0,100,25]
+    },
+    "output": "data/embeded/structural/PPMI"
+}

@@ -1,0 +1,16 @@
+{
+    "input": "data/origin/POS.mat",
+    "prox_option": "PPMI",
+    "prox_params": {
+        "window": [10],
+        "negative": 1.0,
+        "transform": 1,
+        "threshold": 1   
+    },
+    "prox_file": "PPMI_l1",
+    "embed_option": "proximity",
+    "embed_params": {
+        "dim": 128
+    },
+    "output": "data/embeded/PPMI_l1"
+}

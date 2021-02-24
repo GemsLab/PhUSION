@@ -1,0 +1,15 @@
+{
+    "input": "data/origin/POS.mat",
+    "prox_option": "PPR",
+    "prox_params": {
+        "beta": 0.01,
+        "transform": 0,
+        "threshold": 0
+    },
+    "prox_file": "PPR",
+    "embed_option": "proximity",
+    "embed_params": {
+    	"dim": 128
+    },
+    "output": "data/embeded/PPR"
+}

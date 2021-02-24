@@ -1,0 +1,19 @@
+{
+    "dataset": "proteins",
+    "prox_option": "PPR",
+    "prox_params": {
+        "transform": 0,
+        "threshold": 0,
+        "power": 0,
+        "beta": 0.01
+    },
+    "randomseed": 0,
+    "numfolds": 10,
+    "svmc": 0.1,
+    "prox_file": "PPR",
+    "embed_option": "struct",
+    "embed_params": {
+        "time_pnts": [0,100,25]
+    },
+    "output": "data/embeded/graph/PPR"
+}

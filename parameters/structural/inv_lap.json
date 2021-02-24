@@ -1,0 +1,15 @@
+{
+    "input": "./data/origin/usa-airports.edgelist",
+    "prox_option": "inv_lap",
+    "prox_params": {
+        "transform": 0,
+        "threshold": 0,
+        "power": 0
+    },
+    "prox_file": "inv_lap",
+    "embed_option": "struct",
+    "embed_params": {
+        "time_pnts": [0,100,25]
+    },
+    "output": "data/embeded/structural/inv_lap"
+}

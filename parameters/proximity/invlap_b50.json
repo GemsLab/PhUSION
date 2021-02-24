@@ -1,0 +1,14 @@
+{
+    "input": "data/origin/Homo_sapiens.mat",
+    "prox_option": "inv_lap",
+    "prox_params": {
+        "transform": 2,
+        "threshold": 0.5
+    },
+    "prox_file": "invlap_b50",
+    "embed_option": "proximity",
+    "embed_params": {
+        "dim": 128
+    },
+    "output": "data/embeded/invlap_b50"
+}

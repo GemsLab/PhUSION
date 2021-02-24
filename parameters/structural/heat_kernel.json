@@ -1,0 +1,17 @@
+{
+    "input": "./data/origin/usa-airports.edgelist",
+    "prox_option": "heat_kernel",
+    "prox_params": {
+        "transform": 0,
+        "threshold": 0,
+        "taus": [0.01, 0.1, 1, 10, 100],
+        "proc": "approximate",
+        "order": 30
+    },
+    "prox_file": "heat_kernel",
+    "embed_option": "struct",
+    "embed_params": {
+        "time_pnts": [0,100,25]
+    },
+    "output": "data/embeded/structural/heat_kernel"
+}

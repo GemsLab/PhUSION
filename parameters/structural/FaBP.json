@@ -1,0 +1,16 @@
+{
+    "input": "./data/origin/usa-airports.edgelist",
+    "prox_option": "FaBP",
+    "prox_params": {
+        "transform": 0,
+        "threshold": 0,
+        "scale1": 1,
+        "scale2": 1
+    },
+    "prox_file": "FaBP",
+    "embed_option": "struct",
+    "embed_params": {
+        "time_pnts": [0,100,25]
+    },
+    "output": "data/embeded/structural/FaBP"
+}

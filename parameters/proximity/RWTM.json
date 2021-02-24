@@ -1,0 +1,14 @@
+{
+    "input": "data/origin/POS.mat",
+    "prox_option": "RWTM",
+    "prox_params": {
+        "transform": 0,
+        "threshold": 0
+    },
+    "prox_file": "RWTM",
+    "embed_option": "proximity",
+    "embed_params": {
+        "dim": 128
+    },
+    "output": "data/embeded/RWTM"
+}
