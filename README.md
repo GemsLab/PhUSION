@@ -1,5 +1,5 @@
 # Node Proximity Is All You Need:Unified Structural and Positional Node and Graph Embedding
-This is a reference implementation for PhUSION, a proximity-based unified framework for computing structural and positional node embeddings, which leverages well-established methods for calculating node proximity scores.
+This is a reference implementation for PhUSION, a proximity-based unified framework for computing structural and positional node embeddings, which leverages well-established methods for calculating node proximity scores. The full paper can be found here: https://arxiv.org/abs/2102.13582
 
 To run proximity/structural embedding codes:
 ``` python src/main.py --param parameters/structural/PPMI.json ```  
